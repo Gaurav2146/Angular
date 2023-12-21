@@ -7,16 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'revisionProject';
-  name = "Rahul";
-
-  onChange(event:any)
-  {
-     console.log(event);
-  }
-
-  onKeyUp(event:any)
-  {
-     console.log(event.target);
-  }
-
 }
+
+
