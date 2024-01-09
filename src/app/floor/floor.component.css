@@ -1,0 +1,14 @@
+#Buiding {
+
+    min-width: 80%;
+    min-height: 80%;
+    border: 2px solid gray;
+
+}
+
+#floor
+{
+    min-width: 100%;
+    min-height: 200px;
+    border: 2px solid gray;
+}

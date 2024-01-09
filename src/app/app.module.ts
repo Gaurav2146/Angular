@@ -7,13 +7,17 @@ import { FormsModule } from '@angular/forms';
 import { ChildComponent } from './child/child.component';
 import { ParentComponent } from './parent/parent.component';
 import { PdfViewerComponent } from './pdf-viewer/pdf-viewer.component';
+import { FloorComponent } from './floor/floor.component';
+import { CustomDirective } from './custom.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChildComponent,
     ParentComponent,
-    PdfViewerComponent
+    PdfViewerComponent,
+    FloorComponent,
+    CustomDirective
   ],
   imports: [
     BrowserModule,

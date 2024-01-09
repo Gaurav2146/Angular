@@ -1,0 +1,21 @@
+
+
+<div id="Building">
+<div id="floor">
+  <span *ngFor="let people of thirdFloor" >
+     {{people.name}} <button appCustom (click)="changeFloor(people.id,2,1)">Down</button> 
+  </span>
+</div>
+<div id="floor">
+    <span *ngFor="let people of secondFloor" >
+        {{people.name}} 
+        <button appCustom (click)="changeFloor(people.id,1,2)">Up</button>
+        <button appCustom (click)="changeFloor(people.id,1,0)">Down</button> 
+      </span>
+</div>
+<div id="floor">
+    <span *ngFor="let people of firstFloor" >
+        {{people.name}} <button appCustom (click)="changeFloor(people.id,0,1)">Up</button>
+    </span>
+</div>
+</div>
